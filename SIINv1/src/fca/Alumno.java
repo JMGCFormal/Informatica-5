@@ -88,7 +88,7 @@ public class Alumno implements Serializable {
         this.edad = edad;
     }
     
-    public static void main(String args[]){
+    public static void main (String args[]){
         SimpleDateFormat f = new SimpleDateFormat("dd/MMMM/yyyy hh:mm:ss");
         Alumno a = new Alumno("Juna", "Gómez", "Contreras", "318092678", new GregorianCalendar(2002,05,25)       
         );
